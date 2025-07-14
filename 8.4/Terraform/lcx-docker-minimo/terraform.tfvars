@@ -1,0 +1,11 @@
+pm_target_node   = "prod01-02"
+pm_hostname      = "aws-lcx-docker-minimo"
+pm_ostemplate    = "local:vztmpl/ubuntu-24.10-standard_24.10-1_amd64.tar.zst"
+pm_root_password = "temporal123"
+pm_cores         = 1
+pm_memory        = 512
+pm_disk_size     = "10G"
+pm_storage       = "local-lvm"
+pm_bridge        = "vmbr1"
+pm_tags          = "community-script,docker,dev,aws-lcx-docker-minimo"
+pm_ssh_key_path  = "~/.ssh/id_rsa.pub"
